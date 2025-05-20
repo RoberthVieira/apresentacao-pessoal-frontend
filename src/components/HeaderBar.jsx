@@ -19,11 +19,17 @@ export default function HeaderBar() {
     return (
         <nav className={styles.navContainer}>
             <img src={Logo} alt="Logo" width='40'/>
-            <Button
-                onClick={trocarTema}
-                className={styles.btnTema}
-                textBtn={tema === 'tela_claro' ? <FaMoon size={25}/> : <FaSun size={25} color='white'/>}
-            />
+            <div className={styles.containerLinks}>
+                <div className={styles.links}>
+                    <a href="https://www.linkedin.com/in/roberth-vieira-501490211/" target='_blank'>Meu Linkedin</a>
+                    <a href="https://github.com/RoberthVieira" target='_blank'>Meu Github</a>
+                </div>
+                <Button
+                    onClick={trocarTema}
+                    className={styles.btnTema}
+                    textBtn={tema === 'tela_claro' ? <FaMoon size={25}/> : <FaSun size={25} color='white'/>}
+                />
+            </div>
         </nav>
     )
 }

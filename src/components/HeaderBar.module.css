@@ -7,6 +7,30 @@
     border-bottom-style: inset;
 }
 
+.containerLinks{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.links{
+    display: flex;
+    gap: 12px;
+}
+
+.links a{
+    padding: 5px;
+    text-decoration: none;
+    color: #8a8989;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.links a:hover{
+    transform: translateY(-4px);
+}
+
 .btnTema{
     display: flex;
     align-items: center;
