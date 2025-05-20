@@ -1,0 +1,29 @@
+.skillsContainer{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+
+.skillsContentList{
+    padding: 20px;
+}
+
+.skillsList{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.skillsContentDescription p {
+    line-height: 30px;
+    text-align: justify;
+}
+
+.skillsContentDescription p:not(:last-child){
+    margin-bottom: 40px;
+}
