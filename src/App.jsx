@@ -1,13 +1,18 @@
-
+import { useContext } from "react";
 import './App.css'
+
+import { ThemeContext } from './context/ThemeContext';
+
+import Header from './components/Header';
 
 function App() {
 
+   const { tema } = useContext(ThemeContext);
+
   return (
     <>
-      <main>
-        <h1>Seja bem vindo! :)</h1>
-        <p>Desafio de apresentação Pessoal do Projeto Frontend fusion</p>
+      <main className={tema}>
+        <Header/>
       </main>
     </>
   );
