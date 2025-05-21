@@ -5,6 +5,7 @@ import { ThemeContext } from './context/ThemeContext';
 
 import Header from './components/Header';
 import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <main className={tema}>
         <Header/>
         <AboutMe/>
+        <Footer/>
       </main>
     </>
   );

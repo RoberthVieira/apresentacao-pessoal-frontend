@@ -22,6 +22,7 @@
 .skillsContentDescription p {
     line-height: 30px;
     text-align: justify;
+    color: #054070;
 }
 
 .skillsContentDescription p:not(:last-child){

@@ -1,0 +1,15 @@
+.footerContent{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.footerContent p{
+    font-size: 0.85rem;
+    color: #8a8989;
+}
+
+.footerContent p span{
+    font-weight: bold;
+}
+

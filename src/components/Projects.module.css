@@ -1,0 +1,9 @@
+.projectsContainer{
+    width: 35%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+}
