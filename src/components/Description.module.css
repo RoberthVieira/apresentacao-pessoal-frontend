@@ -5,3 +5,17 @@
     font-size: 1.1rem;
     text-align: justify;
 }
+
+@media (max-width: 768px) {
+  .about_container {
+    padding: 16px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .about_container {
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+}

@@ -38,3 +38,38 @@
     border: none;
     background-color: transparent;
 }
+
+@media (max-width: 768px) {
+    .navContainer {
+        align-items: flex-start;
+        gap: 16px;
+        padding: 16px;
+    }
+
+    .containerLinks {
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .links{
+        margin-left: 20px;
+    }
+
+    .links a{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .btnTema {
+        display: none;
+    }
+
+    .navContainer {
+        padding: 12px;
+    }
+
+    .links{
+        margin: 0;
+    }
+}

@@ -26,3 +26,21 @@
     font-weight: 400;
 }
 
+@media (max-width: 767px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .intro {
+    margin: 60px auto 12px;
+  }
+
+  .headerContainer {
+    padding: 0 12px;
+    height: auto; /* Evita problemas de altura fixa em telas pequenas */
+  }
+}
