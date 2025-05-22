@@ -8,8 +8,8 @@ export default function Header(){
             <div className={styles.intro}>
                 <h1 className={styles.title}>Olá eu sou o Roberth!</h1>
                 <h3 className={styles.subtitle}>Bem-vindo à minha página.</h3>
+                <Description/>
             </div>
-            <Description/>
         </header>
     )
 }
