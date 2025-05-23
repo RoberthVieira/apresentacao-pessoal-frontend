@@ -51,7 +51,7 @@ Context API — gerenciamento do tema da aplicação.
 🖥️ Como executar o projeto localmente
 
 1. Clone o repositório:
-git clone https://github.com/RoberthVieira/Portifolio-RoberthVieira.git
+git clone https://github.com/RoberthVieira/apresentacao-pessoal-frontend/tree/main
 
 2.Navegue até o diretório:
 cd Portifolio-RoberthVieira
