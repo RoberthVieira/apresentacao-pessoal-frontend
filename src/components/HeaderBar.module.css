@@ -28,7 +28,7 @@
 }
 
 .links a:hover{
-    transform: translateY(-4px);
+    transform: scale(1.05);
 }
 
 .btnTema{
@@ -37,6 +37,12 @@
     justify-content: center;
     border: none;
     background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.btnTema:hover{
+    transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
